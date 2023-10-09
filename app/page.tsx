@@ -1,5 +1,7 @@
 import LogoutButton from "@/components/LogoutButton";
 import Page from "@/components/screens/page";
+import { Menubar, MenubarTrigger } from "@/components/ui/menubar";
+import { MenubarMenu } from "@radix-ui/react-menubar";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
 import Link from "next/link";
